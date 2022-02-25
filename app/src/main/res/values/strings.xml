@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ijk</string>
+    <string name="tcpSpeed">%1$s</string>
+    <string name="singleButton">单</string>
+    <string name="doubleButton">双</string>
+    <string name="multiButton">多</string>
+    <string name="settingButton">设置</string>
+    <string name="ip">IP</string>
+    <string name="camera1">camera1</string>
+    <string name="camera2">camera2</string>
+    <string name="camera3">camera3</string>
+    <string name="cameraIP1">192.168.0.1</string>
+    <string name="cameraIP2">192.168.0.2</string>\
+    <string name="cameraIP3">192.168.0.3</string>
+    <string name="exitButton">退出</string>
+    <string name="saveButton">保存</string>
+    <string name="speed">speed</string>
+
+
+</resources>
