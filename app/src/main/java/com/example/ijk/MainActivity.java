@@ -335,6 +335,9 @@ public class MainActivity extends AppCompatActivity implements VideoListener{
                         break;
                     case 99:
                         // 重连
+                        // 关闭所有线程，并重建线程池
+                        executor.shutdownNow();
+                        executor =  Executors.newFixedThreadPool(3);
                         try {
                             videoPlayer1.load();
                             ConnectServer(1);
